@@ -91,7 +91,7 @@ ml_models/
 ├── model.pkl
 ├── deploy_model.pkl
 └── nids_multiclass_model.pkl
-
+```
 ---
 
 # Installation
