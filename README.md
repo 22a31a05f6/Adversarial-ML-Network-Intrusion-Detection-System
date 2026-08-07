@@ -103,7 +103,7 @@ git clone https://github.com/22a31a05f6/Adversarial-ML-Network-Detection-System.
 ```
 
 ```bash
-cd Network_Intrusion_GitHub
+cd Adversarial-ML-Network-Detection-System
 ```
 
 ---
