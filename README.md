@@ -55,7 +55,7 @@ The project is developed using **Python, Django, Machine Learning, HTML, CSS, Ja
 # Project Structure
 
 ```text
-NAdversarial-ML-Network-Detection-System
+Adversarial-ML-Network-Intrusion-Detection-System
 │
 ├── admins/
 ├── users/
@@ -99,11 +99,11 @@ ml_models/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/22a31a05f6/Adversarial-ML-Network-Detection-System.git
+git clone https://github.com/22a31a05f6/Adversarial-ML-Network-Intrusion-Detection-System.git
 ```
 
 ```bash
-cd Adversarial-ML-Network-Detection-System
+cd Adversarial-ML-Network-Intrusion-Detection-System
 ```
 
 ---
