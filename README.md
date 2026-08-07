@@ -55,7 +55,7 @@ The project is developed using **Python, Django, Machine Learning, HTML, CSS, Ja
 # Project Structure
 
 ```text
-Network_Intrusion_GitHub
+NAdversarial-ML-Network-Detection-System
 │
 ├── admins/
 ├── users/
@@ -75,45 +75,22 @@ Network_Intrusion_GitHub
 
 # Large Files
 
-GitHub has a file size limit. Therefore, the large dataset and trained machine learning model files are hosted on Google Drive.
+Some trained machine learning models and datasets are not included in this repository because they exceed GitHub's file size limit.
 
-## Dataset Folder
+The repository contains the complete source code, project structure, training scripts, and configuration files required to understand and reproduce the project.
 
-Download the complete dataset from:
+To execute the project successfully, place the required trained models and datasets inside the `ml_models` directory before running the application.
 
-**Google Drive**
-
-https\://drive.google.com/drive/folders/1lTk71OTx4jJjP-arrPHCSUg5WY\_XQkqf?usp=sharing
-
----
-
-## Multi-Class Trained Model and CICIDS Folder
-
-Download **nids\_multiclass\_model.pkl** and the **cicids** folder from the following Google Drive links respectively.
-
-### nids\_multiclass\_model.pkl
-
-https\://drive.google.com/file/d/1Eg8XXZ74o50f7rKyArAGSREGStr2Vcdb/view?usp=sharing
-
-### cicids Folder
-
-https\://drive.google.com/drive/folders/126mIx6GXmvbFWptlhcDBqWb9Bu5zmcc7?usp=sharing
-
----
-
-## After Downloading
-
-Place the downloaded files inside:
+Required directory structure:
 
 ```text
 ml_models/
 │
 ├── dataset/
 ├── cicids/
+├── model.pkl
+├── deploy_model.pkl
 └── nids_multiclass_model.pkl
-```
-
-The project will **not** work correctly unless these files are placed inside the **ml\_models** folder.
 
 ---
 
@@ -122,7 +99,7 @@ The project will **not** work correctly unless these files are placed inside the
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YourGitHubUsername/Network_Intrusion_GitHub.git
+git clone https://github.com/22a31a05f6/Adversarial-ML-Network-Detection-System.git
 ```
 
 ```bash
@@ -182,6 +159,14 @@ Visit:
 ```text
 http://127.0.0.1:8000/
 ```
+
+---
+
+## Important
+
+Some trained machine learning models and datasets are not included in this repository because they exceed GitHub's file size limit.
+
+Before running the project, make sure the required datasets and trained model files are placed inside the `ml_models` directory.
 
 ---
 
